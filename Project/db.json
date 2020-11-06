@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "email": "yashch@cybage.com",
+      "category": "Wild",
+      "title": "Hello Frica",
+      "content": "U are in africa"
+    }
+  ],
+  "users": [
+    {
+      "name": "Yash Chavhan",
+      "email": "yashch@cybage.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Rakesh Pawar",
+      "email": "rakeshpaw",
+      "password": "56789",
+      "id": 2
+    },
+    {
+      "name": "Ritisha Pawar",
+      "email": "ritisha@cybage.com",
+      "password": "78901",
+      "id": 3
+    },
+    {
+      "name": "Abhishek Singh",
+      "email": "absingh@cybage.com",
+      "password": "asdfg",
+      "id": 4
+    },
+    {
+      "name": "Amey Khaire",
+      "email": "ak@cybage.com",
+      "password": "qwert",
+      "id": 5
+    },
+    {
+      "name": "Aditya Dhopade",
+      "email": "ad@cybage.com",
+      "password": "asdfg",
+      "id": 6
+    },
+    {
+      "name": "Urvashi Harode",
+      "email": "uv@gmail.com",
+      "password": "asdfg",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
