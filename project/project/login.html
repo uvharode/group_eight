@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
+        Login
+      </button>
+    </div>
+
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-title text-center">
+                        <h4>Login</h4>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                        <!---FORMMMMMMMMMMMMMMMMMMM-->
+                        <form>
+                            <div class="form-group">
+                                <input type="email" name="email1" class="form-control" id="email1" placeholder="Your email address..." />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" name="password1" minlength="5" class="form-control" id="password1" placeholder="Your password..." />
+                            </div>
+                            <button type="button" id="btnLogin" class="btn btn-info btn-block btn-round">
+                  Login
+                </button>
+                            <span id="answer"></span>
+                        </form>
+                        <a href="./signup.html"><button class="btn btn-info btn-block btn-round">
+                  Signup
+                </button></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="leftcolumn" id="rightarea">
+      <div class="card">
+       <h4>Technology</h4>
+       <p>Java is very popular technology</p>
+
+       <h4>food</h4>
+       <p>Pizza is most popular junk food</p>
+
+       <h4>Fashion</h4>
+       <p>maharastrian saree</p>
+      </div>
+    </div>
+
+  </body>
+  <script src="../jquery-3.5.1.js"></script>
+  <script src="./login.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>

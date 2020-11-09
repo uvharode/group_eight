@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <title>Project</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+	
+    <link rel="stylesheet" href="./projectfinal.css">
+      <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.min.css">
+      
+      <script src="../jquery-3.5.1.js"></script>
+      
+
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+	  <!-- <script src="../bootstrap-4.0.0-dist/js/bootstrap.min.js"></script> -->
+	  <script src="./projectfinal.js"></script>
+    
+	  <!-- <script src="https://use.fontawesome.com/c7a702236e.js"></script> -->
+	</head>
+	<body>
+    
+        <div class="header">
+            <h2>Blog It</h2>
+          </div>
+          <!-- Navbar content -->
+          
+        <div class="topnav" id="myTopnav">
+ 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+       </a>
+
+  
+        <a href="#about">ABOUT</a>
+        <a href="#home">HOME</a>
+       
+        <a  class="login"><button class="btn" id="login" onclick="hidepage()">LOGIN</button></a>
+        <a  class="hideblog"><button class="btn" id="hideblog">CREATE BLOG</button></a>
+        <a  class="hidelogout"><button class="btn" id="hidelogout">LOGOUT</button></a>
+        </div>
+	     
+	   
+	
+          <!-- left column for categories -->
+<div class="row mainarea">
+          <div class="rightcolumn">
+            <div class="card">
+               
+                <!-- search box -->
+                <div class="main">
+  
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                          <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                      </div>
+                </div> 
+
+                    <!-- 1st category -->
+                    <ul class="ul">
+                        <h4>Category</h4>
+                        <li><button id="technology" class="btn1">Technology</button></li>
+                        <li><button id="fashion" class="btn1">fashion</button></li>
+                        <li><button id="travel"  class="btn1">Travel</button></li>
+                        <li><button id="food"  class="btn1">Food</button></li>
+                      </ul>
+
+                  <!-- create blog button -->
+             
+            </div> 
+            
+            
+          </div>     
+          
+          
+    
+          
+          <!-- right column to display blogs-->
+
+          <div class="leftcolumn" id="rightarea">
+            <div class="card">
+             <h4>Technology</h4>
+             <p>Java is very popular technology</p>
+
+             <h4>food</h4>
+             <p>Pizza is most popular junk food</p>
+
+             <h4>Fashion</h4>
+             <p>maharastrian saree</p>
+            </div>
+          </div>
+
+        
+
+         
+
+	
+</div>
+<div class="footer">
+    <h2>Footer</h2>
+  </div>   
+  
+	</body>
+	</html> 
+

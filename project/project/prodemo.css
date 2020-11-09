@@ -1,0 +1,29 @@
+@import'../bootstrap-4.5.3-dist/css/bootstrap.css';
+
+.divborder{
+    border:3px solid black;
+}
+
+.col-md-3
+{
+   
+    background:pink;
+    display:block;
+    margin-top:10px;
+    padding:10px
+}
+
+.col-md-4{
+    height: 200px;
+    background:lightpink;
+    display:block;
+    left:400px;
+}
+
+
+.col-md-2{
+    
+    background:lightsalmon;
+    display:block;
+   
+}

@@ -1,0 +1,60 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "catname": "technology",
+      "userid": "1",
+      "title": "Cybage Software",
+      "img": "../images/cy.jpg",
+      "content": "It is a software Company"
+    },
+    {
+      "id": "2",
+      "catname": "fashion",
+      "userid": "2",
+      "title": "Flowers",
+      "img": "../images/flower.jpeg",
+      "content": "Beauty"
+    },
+    {
+      "id": "3",
+      "catname": "technology",
+      "userid": "2",
+      "title": "java",
+      "img": "../images/flower.jpeg",
+      "content": "java is very good language"
+    }
+  ],
+  "users": [
+    {
+      "name": "Yash Chavhan",
+      "email": "yashch@cybage.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Rakesh Pawar",
+      "email": "rakeshpaw",
+      "password": "56789",
+      "id": 2
+    },
+    {
+      "name": "Ritisha Pawar",
+      "email": "ritisha@cybage.com",
+      "password": "78901",
+      "id": 3
+    },
+    {
+      "name": "rajashri karad",
+      "email": "rajashrik",
+      "password": "raj",
+      "id": 4
+    },
+    {
+      "name": "urvashi harode",
+      "email": "uv5",
+      "password": "uv123",
+      "id": 5
+    }
+  ]
+}

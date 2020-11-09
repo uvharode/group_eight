@@ -1,0 +1,27 @@
+@import'../bootstrap-4.5.3-dist/css/bootstrap.css';
+
+
+body {
+    background: url('../images/img1.jpg') fixed;
+   background-size: cover;
+}
+
+ form{
+   max-width: 600px;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color: lightslategrey;
+}
+
+h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: #000000;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+

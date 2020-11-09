@@ -1,0 +1,46 @@
+@import'../bootstrap-4.5.3-dist/css/bootstrap.css';
+
+h1{
+    font-size: 2rem;
+    color:violet;
+}
+.divborder{
+    border:3px solid black;
+}
+
+.colborder{
+    border:3px solid black;
+}
+
+.rowStyle{
+    height: 80px;
+    background-color: whitesmoke;
+}
+@media (min-width: 576px) { 
+    body{
+        background-color: cyan;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    #div2{
+        background-color: lightcoral;
+    }
+    
+ }
+
+
+@media (min-width: 992px) { 
+    #div3{
+        background-color: lightpink;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    body{
+        background-color: magenta;
+    }
+ }
+
