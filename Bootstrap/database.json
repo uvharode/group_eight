@@ -1,0 +1,127 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "catname": "technology",
+      "userid": "1",
+      "title": "Cybage Software",
+      "img": "../images/cy.jpg",
+      "content": "It is a software Company"
+    },
+    {
+      "id": "2",
+      "catname": "fashion",
+      "userid": "2",
+      "title": "Flowers",
+      "img": "../images/flower.jpeg",
+      "content": "beauty of digital era technology"
+    },
+    {
+      "id": "3",
+      "catname": "food",
+      "userid": "2",
+      "title": "technology",
+      "img": "../images/flower.jpeg",
+      "content": "java is very good language"
+    },
+    {
+      "catname": "technology",
+      "title": "image with url",
+      "content": "image with url new",
+      "img": "../images/flower.jpeg",
+      "id": "S2g096G"
+    }
+  ],
+  "users": [
+    {
+      "name": "Yash Chavhan",
+      "email": "yashch@cybage.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Rakesh Pawar",
+      "email": "rakeshpaw",
+      "password": "56789",
+      "id": 2
+    },
+    {
+      "name": "Ritisha Pawar",
+      "email": "ritisha@cybage.com",
+      "password": "78901",
+      "id": 3
+    },
+    {
+      "name": "rajashri karad",
+      "email": "rajashrik",
+      "password": "raj",
+      "id": 4
+    },
+    {
+      "name": "urvashi harode",
+      "email": "uv5",
+      "password": "uv123",
+      "id": 5
+    },
+    {
+      "name": "sampada deshmukh",
+      "email": "samd",
+      "password": "sam",
+      "id": 6
+    },
+    {
+      "name": "uvhar12 harode45",
+      "email": "uv56",
+      "password": "uv456",
+      "id": 7
+    },
+    {
+      "name": "uvhar12 karad",
+      "email": "haruv",
+      "password": "har123",
+      "id": 8
+    },
+    {
+      "name": "uvhar12 karad",
+      "email": "samd",
+      "password": "uv789",
+      "id": 9
+    },
+    {
+      "name": "uvhar12 karad",
+      "email": "samd",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "urvashi harode",
+      "email": "samdesh@gmail.com",
+      "password": "78945",
+      "id": 11
+    },
+    {
+      "name": "sampada harode",
+      "email": "rajashrik@cybage.com",
+      "password": "12345",
+      "id": 12
+    },
+    {
+      "name": "sampada deshmukh",
+      "email": "samcy12@cy.com",
+      "password": "sam567",
+      "id": 13
+    },
+    {
+      "name": "sampada karad",
+      "email": "samcy12@cy.com",
+      "password": "56789",
+      "id": 14
+    },
+    {
+      "name": "uvhar12 deshmukh",
+      "email": "samdesh@gmail.com",
+      "password": "123456",
+      "id": 15
+    }
+  ]
+}
