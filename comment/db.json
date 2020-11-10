@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Rakesh",
+      "body": "i like rhis blog",
+      "date": "11/09/2020"
+    },
+    {
+      "id": 2,
+      "name": "Rakesh",
+      "body": "i like rhis blog",
+      "date": "11/09/2020"
+    },
+    {
+      "name": "Ritisha Pawar",
+      "date": "2020-11-12",
+      "body": "\n       rtytry",
+      "id": 3
+    },
+    {
+      "name": "yash",
+      "date": "2020-11-25",
+      "body": "\n       hello group 8",
+      "id": 4
+    },
+    {
+      "name": "nikhil",
+      "date": "2020-11-26",
+      "body": "\n       hello very good site",
+      "id": 5
+    },
+ 
+    {
+      "name": "msd",
+      "date": "2020-11-27",
+      "body": "\n       dsffvdvcdds",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

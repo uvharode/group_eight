@@ -1,0 +1,15 @@
+.form h5{
+    text-align: center;
+}
+
+#comment p {
+    background: #ddd;
+    white-space:normal;  /* <-- THIS PRESERVES THE LINE BREAKS */
+  }
+  textarea {
+    width: 100%;
+  }
+
+  
+
+ 
