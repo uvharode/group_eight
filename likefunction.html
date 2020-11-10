@@ -14,6 +14,8 @@
 .fa:hover {
   color: rgb(119, 119, 223);
 }
+
+
 </style>
 </head>
 <body>
@@ -28,13 +30,15 @@
 
 <script>
     var flag =false;
+    
     $(".like").click(()=>{
         if(flag){
             console.log($("#showlike").html());
             flag= false;
 
-            $("#showlike").html(+$("#showlike").html() -1);
+          $("#showlike").html(+$("#showlike").html() -1);
             $(".fa fa-thumbs-up").removeClass(".fa-thumbs-up");
+            $(".fa").css({"color":"black"});
             
            
             
@@ -43,8 +47,10 @@
             console.log($("#showlike").html());
             flag=true;
             $("#showlike").html(+$("#showlike").html() +1);
+          
             $(".fa fa-thumbs-up").removeClass(".thumbs.up");
-            
+            $(".fa").css({"color":"rgb(119, 119, 223)"});
+           
            
           
             
