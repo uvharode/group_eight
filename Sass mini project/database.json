@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "catname": "Technology",
+      "title": "Front End Technology",
+      "UserName": "true",
+      "content": "The front end stack is made up of many different technologies and libraries .<div>while these vary from application to application.</div>",
+      "img": "../images/frontend.jpg",
+      "id": 1
+    },
+    {
+      "catname": "Technology",
+      "title": "PHP",
+      "UserName": "true",
+      "content": "<b>PHP</b><i> is a programming language that allows developers to create dynamic web applications with its content that can interact with databases and also a general purpose server side scripting language.</i>",
+      "img": "../images/php.jpg",
+      "id": 2
+    },
+    {
+      "catname": "Food",
+      "title": "Tandoori Chicken",
+      "UserName": "true",
+      "content": "Crisp on the outside,soft and succulent on the inside,<b>Tandoori Chicken </b>is the mainstay of <b>punjab cooking</b>,with its roots firmly in the Mughal era.",
+      "img": "../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
+      "id": 3
+    },
+    {
+      "catname": "Food",
+      "title": "Panner Tikka",
+      "UserName": "true",
+      "content": "Panner Tikka is one of the best starter in any popular indian restaurant it can also be served as a snack in Barbecues",
+      "img": "../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
+      "id": 4
+    },
+    {
+      "catname": "Travel",
+      "title": "Kashmir",
+      "UserName": "true",
+      "content": "sonmarg or sonamarg hill station in Ganderbal distict in the indian union territory of <b>Jammu and kashmir</b> about 80km north-east of shree nagar,sonmarg located at a hefty altitude 2,740meter above sea level",
+      "img": "../images/kashmir.jpg",
+      "id": 5
+    },
+    {
+      "catname": "Technology",
+      "title": "share your files here",
+      "UserName": "",
+      "content": "<b>fdsgdfsgghhghfghbxfgn</b>",
+      "img": "../images/cy.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Rajashri Karad",
+      "email": "rajashrik@cybage.com",
+      "password": "raj123",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write your new comment",
+      "id": 1
+    },
+    {
+      "postId": "3",
+      "name": "rajashrik@cybage.com",
+      "comment": "write good comment",
+      "id": 2
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write good nice very good comment",
+      "id": 3
+    }
+  ]
+}
