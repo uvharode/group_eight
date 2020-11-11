@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#search {
+    background-color: brown;
+    width: 50%;
+}
+
+
+/* Add a gray background color with some padding */
+
+body {
+    background-image: url("../images/bg2.jpg");
+    /*new*/
+    background-repeat: repeat-n;
+    /*new*/
+    font-family: Arial;
+    padding: 20px;
+    /* background: #f1f1f1; */
+}
+
+
+/* Header/Blog Title */
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    /* background: burlywood; */
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+
+/* Left column */
+
+.leftcolumn {
+    flex-direction: row;
+    float: left;
+    width: 75%;
+    display: flex;
+}
+
+
+/* Right column */
+
+.rightcolumn {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Fake image */
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/*courasoul*/
+
+.catagory-carousel {
+    /*new*/
+    height: 20%;
+    width: 30%;
+}
+
+
+/* Add a card effect for articles */
+
+.card {
+    /*new*/
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-right: 15px;
+}
+
+
+/* Footer */
+
+.footer {
+    /*new*/
+    font-family: "Impact, Charcoal, sans-serif";
+    font-weight: bolder;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* background: burlywood; */
+    margin-top: 20px;
+}
+
+.nav2 {
+    width: 60%;
+}
+
+.mainarea {
+    /*new*/
+    display: flex;
+    flex-direction: row;
+    /* background: burlywood; */
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 50px auto;
+}
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.card-body {
+    /*new*/
+    background-color: bisque;
+}
+
+.btn1 {
+    /*new*/
+    width: 150px;
+    background: bisque;
+    box-shadow: chocolate;
+    padding: 10%;
+}
+
+.row .mainarea {
+    /*new*/
+    height: 100px;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    /*new*/
+    background-color: rgb(240, 186, 120);
+    color: white;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+ul {
+    text-align: center;
+    align-self: center;
+}
+
+li {
+    /*new*/
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+li a {
+    /*new*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navright {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show-read-more .more-text {
+    display: none;
+}
+
+
+/* new nav */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav .login {
+    float: right;
+}
+
+.topnav .hideblog {
+    float: right;
+    display: none;
+}
+
+.topnav .hidelogout {
+    float: right;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    li {
+        display: inline;
+    }
+}

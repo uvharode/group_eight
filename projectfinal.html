@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./projectfinal.css" />
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+
+    <script src="../jquery-3.5.1.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- <script src="../bootstrap-4.0.0-dist/js/bootstrap.min.js"></script> -->
+    <script src="./projectfinal.js"></script>
+
+    <!-- <script src="https://use.fontawesome.com/c7a702236e.js"></script> -->
+</head>
+
+<body>
+    <div class="header">
+        <h2>Blog It</h2>
+    </div>
+    <!-- Navbar content -->
+
+    <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <a href="#about">ABOUT</a>
+        <a href="#home">HOME</a>
+
+        <a class="login"><button class="btn" id="login" onclick="hidepage()">LOGIN</button></a
+      >
+      <a class="hideblog"
+        ><button class="btn" id="hideblog">CREATE BLOG</button></a
+      >
+      <a class="hidelogout"
+        ><button class="btn" id="hidelogout">LOGOUT</button></a
+      >
+    </div>
+    <div class="input-group" id="search">
+      <input type="text" class="form-control" placeholder="Search" />
+
+      <div class="input-group-append">
+        <button class="btn btn-secondary" type="button">
+          search
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+
+    <!---BOOTSTRAP NAVBAR-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+                </li>
+
+            </ul> -->
+            <!-- search box -->
+            <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+    </form>
+    </div>
+    </nav> -->
+
+            <div class="card">
+                <div class="main"></div>
+                <!---CATEGORY-->
+                <ul class="ul">
+                    <h4>Category</h4>
+                    <br />
+                    <li><button id="technology" class="btn1">Technology</button></li>
+                    <li><button id="fashion" class="btn1">fashion</button></li>
+                    <li><button id="travel" class="btn1">Travel</button></li>
+                    <li><button id="food" class="btn1">Food</button></li>
+                </ul>
+            </div>
+
+            <!-- left column for categories -->
+            <!--card with carousel-->
+            <div class="row mainarea">
+                <div class="catagory-carousel">
+                    <div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card" style="width: 18rem">
+                                    <img class="card-img-top" src="../images/php.jpg" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Technology</h5>
+                                        <p class="card-text">
+                                            PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                                            lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is
+                                            popular among PHP development companies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem">
+                                    <img class="card-img-top" src="../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Technology</h5>
+                                        <p class="card-text">
+                                            PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                                            lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is
+                                            popular among PHP development companies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem">
+                                    <img class="card-img-top" src="../images/kashmir.jpg" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Technology</h5>
+                                        <p class="card-text">
+                                            PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                                            lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is
+                                            popular among PHP development companies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem">
+                                    <img class="card-img-top" src="../images/dress1.jpg" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Technology</h5>
+                                        <p class="card-text">
+                                            PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                                            lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is
+                                            popular among PHP development companies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right column to display blogs-->
+                <!--card without carousel-->
+
+                <div class="rightcolumn" id="rightarea">
+                    <div class="card" style="width: 18rem">
+                        <img class="card-img-top" src="../images/php.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Technology</h5>
+                            <p class="card-text">
+                                PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                                lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is popular among
+                                PHP development companies.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <div class="card" style="width: 18rem">
+                        <img class="card-img-top" src="../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Food</h5>
+                            <p class="card-text">
+                                Paneer tikka (soft paneer cubes marinated in spices and grilled) is one of the best starters in any popular Indian restaurant. It can also be served as a snack in barbecues. Given below is the method to make this wonderful dish.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem">
+                        <img class="card-img-top" src="../images/dress1.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Fashion</h5>
+                            <p class="card-text">
+                                Sophisticated yet inventive, a fitted corseted party or reception ensemble can make heads turn all the way. Throw in the off-shoulder trend followed by a fitted bodice that cascades down into a dreamy flare with floral details. Style the gown with a pair
+                                of diamond danglers and you’re all set for the first dance. For an edgier look, indulge in sheer fabrics and sensuous, corseted bustier.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h2>Footer</h2>
+            </div>
+</body>
+
+</html>
+
+<!--CATAGORY-->
+<!-- <div class="rightcolumn">
+            <div class="card">
+                
+                <div class="main">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" />
+
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="ul">
+                    <h4>Category</h4>
+                    <li><button id="technology" class="btn1">Technology</button></li>
+                    <li><button id="fashion" class="btn1">fashion</button></li>
+                    <li><button id="travel" class="btn1">Travel</button></li>
+                    <li><button id="food" class="btn1">Food</button></li>
+                </ul>
+            </div>
+        </div> -->
