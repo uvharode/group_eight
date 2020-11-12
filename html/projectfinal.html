@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <title>Project</title>
+	  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/first.css">
+  
+    
+    
+    
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+  <!-- <script src="../bootstrap-4.0.0-dist/js/bootstrap.min.js"></script> -->
+  <script src="../js/projectfinal.js"></script>
+ 
+<!-- from login html page -->
+<link
+rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	
+    
+	</head>
+	<body>
+    
+        <div class="header">
+            <h1>Blog It!</h1>
+          </div>
+        
+	     
+	   
+   
+   <!-- -BOOTSTRAP NAVBAR -->
+   <div class="topnav" id="myTopnav">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li  class="nav-item active"> 
+            <a  class="nav-link"><button class="btn" id="home" style="background-color: grey;">Home</button></a>
+          </li>
+      
+        <li  class="nav-item login"> 
+              <a  class="nav-link "><button class="btn" id="login">Login</button></a>
+            </li>
+            <li  class="nav-item signup"> 
+              <a  class="nav-link"><button class="btn" id="signup">Sign Up</button></a>
+            </li>
+            <li  class="nav-item"> 
+              <a  class="nav-link"><button class="btn" id="blog">CreateBlog</button></a>
+            </li>
+            <li  class="nav-item logout" logout> 
+              <a  class="nav-link"><button class="btn" id="logout" style="display: none;">Logout</button></a>
+            </li>
+           
+        </ul> 
+        
+</div>
+</nav>
+</div>
+<!--search-->
+
+<div class="input-group" id="search">
+  <input type="text" id="searchbox" class="form-control" placeholder="Search" />
+
+  <div class="input-group-append">
+      <button class="btn btn-secondary" type="button" id="searchbutton">Search
+<i class="fa fa-search"></i>
+</button>
+  </div>
+</div>
+<div class="card">
+  <!-- <div class="main">
+    
+  </div> -->
+  <!---CATEGORY-->
+  <ul class="ul">
+      <h4>Category</h4>
+      <br />
+      <li><button id="Technology" class="btn1">Technology</button></li>
+      <li><button id="Fashion" class="btn1">Fashion</button></li>
+      <li><button id="Travel" class="btn1">Travel</button></li>
+      <li><button id="Food" class="btn1">Food</button></li>
+  </ul>
+</div>
+
+<!-- left column for categories -->
+<!--card with carousel-->
+<div class="row mainarea">
+ 
+  <div class="catagory-carousel">
+      <div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="card" style="width: 18rem">
+                      <img class="card-img-top" src="../images/php.jpg" alt="Card image cap" />
+                      <div class="card-body">
+                          <h5 class="card-title">Technology</h5>
+                          <p class="card-text">
+                              PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                              lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is
+                              popular among PHP development companies.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card" style="width: 18rem">
+                      <img class="card-img-top" src="../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg" alt="Card image cap" />
+                      <div class="card-body">
+                          <h5 class="card-title">Technology</h5>
+                          <p class="card-text">
+                            Paneer tikka (soft paneer cubes marinated in spices and grilled) is one of the best starters in any popular Indian restaurant. It can also be served as a snack in barbecues. Given below is the method to make this wonderful dish.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card" style="width: 18rem">
+                      <img class="card-img-top" src="../images/kashmir.jpg" alt="Card image cap" />
+                      <div class="card-body">
+                          <h5 class="card-title">Travel</h5>
+                          <p class="card-text">
+                            Sonmarg or Sonamarg hill station in Ganderbal district in the Indian Union Territory of Jammu and Kashmir about 80 km north-east of Srinagar. Sonmarg, located at a hefty altitude of 2,740 m above sea level, literally means ‘Meadow of Gold‘.  Sonmarg gives rise to The Three Sisters (Kashmir). 
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card" style="width: 18rem">
+                      <img class="card-img-top" src="../images/dress1.jpg" alt="Card image cap" />
+                      <div class="card-body">
+                          <h5 class="card-title">Fashion</h5>
+                          <p class="card-text">
+                            Sophisticated yet inventive, a fitted corseted party or reception ensemble can make heads turn all the way. Throw in the off-shoulder trend followed by a fitted bodice that cascades down into a dreamy flare with floral details. 
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  
+
+  <!-- right column to display blogs-->
+  <!--card without carousel-->
+
+  <div class="rightcolumn" id="rightarea">
+      <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="../images/php.jpg" alt="Card image cap" />
+          <div class="card-body">
+              <h5 class="card-title">Technology</h5>
+              <p class="card-text">
+                  PHP is a programming language that allows web developers to create dynamic web applications with its content that can interact with its databases and also a general-purpose server-side scripting language that runs on the webserver allows to accessing
+                  lots of developers. It supports nearly all operating systems like Windows, Linux, UNIX, etc. PHP development is simple and easy to use this language is one of the important reasons behind the platform that is popular among
+                  PHP development companies.
+              </p>
+          </div>
+      </div>
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg" alt="Card image cap" />
+          <div class="card-body">
+              <h5 class="card-title">Food</h5>
+              <p class="card-text">
+                  Paneer tikka (soft paneer cubes marinated in spices and grilled) is one of the best starters in any popular Indian restaurant. It can also be served as a snack in barbecues. Given below is the method to make this wonderful dish.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+      </div>
+      <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="../images/dress1.jpg" alt="Card image cap" />
+          <div class="card-body">
+              <h5 class="card-title">Fashion</h5>
+              <p class="card-text">
+                  Sophisticated yet inventive, a fitted corseted party or reception ensemble can make heads turn all the way. Throw in the off-shoulder trend followed by a fitted bodice that cascades down into a dreamy flare with floral details. Style the gown with a pair
+                  of diamond danglers and you’re all set for the first dance. For an edgier look, indulge in sheer fabrics and sensuous, corseted bustier.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+      </div>
+  </div>
+</div>
+
+          <!-- for login        -->
+          <div class="modal fade" id="loginModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-title text-center">
+                            <h4>Login</h4>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                            <!---FORMMMMMMMMMMMMMMMMMMM-->
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" name="email1" class="form-control" id="email1" placeholder="Your email address..." />
+                                </div>
+    
+                                <div class="form-group">
+                                    <input type="password" name="password1" minlength="5" class="form-control" id="password1" placeholder="Your password..." />
+                                </div>
+    
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check" />
+                                    <label class="form-check-label" for="exampleCheck1">Show-Password</label>
+                                </div>
+                                <button type="button" id="btnLogin" class="btn btn-info btn-block btn-round">
+                      Login
+                    </button>
+                                <span id="answer"></span>
+                            </form>
+                            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+  <!-- code for sign up -->
+  <div class="modal fade" id="signupModal">
+    <!--tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"-->
+    <div class="modal-dialog modal-dialog-centered">
+        <!--role="document"-->
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <!--data-dismiss="modal" aria-label="Close"-->
+            </div>
+            <div class="modal-body">
+                <div class="form-title text-center">
+                    <h4>Sign Up</h4>
+                </div>
+                <div class="d-flex flex-column text-center">
+                    <!--SIGNUP FORMMMMMMMMMMMMMMMMMMMMMMMMM-- fname1 lname1 e1 p1  cpassword1--->
+                    <form id="signup-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="fname1" placeholder="Your First Name..." minlength="4" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="lname1" placeholder="Your Last Name..." minlength="4" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your email address..." />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="p1" placeholder="Your password..." minlength="5" />
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="check1" />
+                            <label class="form-check-label" for="exampleCheck1">Show-Password</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="cpassword1" placeholder="Confirm Password" minlength="5" />
+                        </div>
+
+
+                        <div class="registrationFormAlert" style="color: black" id="CheckPasswordMatch"></div>
+
+                        <button id="btnSignup" class="btn btn-info btn-block btn-round">
+              Sign Up</button
+            ><!--this is a signup form submit button-->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-dialog-->
+</div>
+<!--signupModal-->
+
+
+
+
+
+<div class="footer" style="background-color: white;">
+    <h5>www.blogit.com</h5>
+    <marquee ><h6>@All Right Reserved</h6></marquee>
+    
+  </div>   
+  <script src="../js/newjs.js"></script>
+	</body>
+	</html> 

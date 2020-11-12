@@ -1,0 +1,15 @@
+@mixin property($height,$width)
+{
+    height: $height;
+    width: $width;
+   
+}
+
+@mixin editorProperty($height,$width,$margin,$border)
+{
+    height: $height;
+    width: $width;
+    margin: $margin;
+    border: $border;
+
+}

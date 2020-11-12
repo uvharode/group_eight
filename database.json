@@ -1,0 +1,146 @@
+{
+  "posts": [
+    {
+      "catname": "Technology",
+      "title": "Front End Technology",
+      "UserName": "rajashrik@cybage.com",
+      "content": "The front end stack is made up of many different technologies and libraries .<div>while these vary from application to application.</div>",
+      "img": "../images/frontend.jpg",
+      "id": 1
+    },
+    {
+      "catname": "Technology",
+      "title": "PHP",
+      "UserName": "rajashrik@cybage.com",
+      "content": "<b>PHP</b><i> is a programming language that allows developers to create dynamic web applications with its content that can interact with databases and also a general purpose server side scripting language.</i>",
+      "img": "../images/php.jpg",
+      "id": 2
+    },
+    {
+      "catname": "Food",
+      "title": "Tandoori Chicken",
+      "UserName": "rajashrik@cybage.com",
+      "content": "Crisp on the outside,soft and succulent on the inside,<b>Tandoori Chicken </b>is the mainstay of <b>punjab cooking</b>,with its roots firmly in the Mughal era.",
+      "img": "../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
+      "id": 3
+    },
+    {
+      "catname": "Food",
+      "title": "Panner Tikka",
+      "UserName": "rajashrik@cybage.com",
+      "content": "Panner Tikka is one of the best starter in any popular indian restaurant it can also be served as a snack in Barbecues",
+      "img": "../images/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
+      "id": 4
+    },
+    {
+      "catname": "Travel",
+      "title": "Kashmir",
+      "UserName": "rajashrik@cybage.com",
+      "content": "sonmarg or sonamarg hill station in Ganderbal distict in the indian union territory of <b>Jammu and kashmir</b> about 80km north-east of shree nagar,sonmarg located at a hefty altitude 2,740meter above sea level",
+      "img": "../images/kashmir.jpg",
+      "id": 5
+    },
+    {
+      "catname": "Fashion",
+      "title": "Victorian Gowns",
+      "UserName": "uvharode@cybage.com",
+      "content": "Sophisticated yet inventive, a fitted corseted party or reception ensemble can make heads turn all the way.",
+      "img": "../images/dress1.jpg",
+      "id": 6
+    },
+    {
+      "catname": "Fashion",
+      "title": "Draped Floral Lehenga",
+      "UserName": "ritishap@cybage.com",
+      "content": "A Draped Lehenga is another big bridal wear trend this year and when mixed with florals,its simply stunning.",
+      "img": "../images/dress2.jpg",
+      "id": 7
+    },
+    {
+      "catname": "Technology",
+      "title": "Google",
+      "UserName": "ritishap@cybage.com",
+      "content": "Google is most popular search engine",
+      "img": "../images/google.png",
+      "id": 8
+    },
+    {
+      "catname": "Technology",
+      "title": "Bootstrap",
+      "UserName": "ritishap@cybage.com",
+      "content": "Quickly design and customize responsive mobile-first sites with bootstrap, The worlds most popular front end open source toolkit.",
+      "img": "../images/bootstrap.jpg",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "Rajashri Karad",
+      "email": "rajashrik@cybage.com",
+      "password": "raj123",
+      "id": 1
+    },
+    {
+      "name": "urvashi harode",
+      "email": "uvharode@cybage.com",
+      "password": "uvharode",
+      "id": 2
+    },
+    {
+      "name": "Ritisha Pawar",
+      "email": "ritishap@cybage.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "sampada deshmukh",
+      "email": "samdesh@gmail.com",
+      "password": "sam123",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write your new comment",
+      "id": 1
+    },
+    {
+      "postId": "3",
+      "name": "rajashrik@cybage.com",
+      "comment": "write good comment",
+      "id": 2
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write good nice very good comment",
+      "id": 3
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "nice blog",
+      "id": 4
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write your comment",
+      "id": 5
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write your new comment",
+      "id": 6
+    },
+    {
+      "postId": "1",
+      "name": "rajashrik@cybage.com",
+      "comment": "write your hii comment",
+      "id": 7
+    }
+  ]
+}
